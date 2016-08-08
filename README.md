@@ -1,7 +1,7 @@
-<p align="center">Sistema inteligente para gerenciamento de elevadores prediais.</p>
-<p align="center">Daniel Paiva Fernades1, Yasmin Bacha Castro1</p>
-<p align="center">1Universidade Federal de Itajubá (UNIFEI).</p>
-<p align="center">{ daniel.paivafernandes@gmail.com, yasmin95bacha@hotmail.com }</p>
+<p align="center"><b>Sistema inteligente para gerenciamento de elevadores prediais.</p>
+<p align="center">Daniel Paiva Fernades¹, Yasmin Bacha Castro¹</b></p>
+<p align="center">¹Universidade Federal de Itajubá (UNIFEI).</p>
+<p align="center">{daniel.paivafernandes@gmail.com, yasmin95bacha@hotmail.com}</p>
 <p align="center"><b>Resumo.</b> Esse artigo propõe um sistema inteligente para gerenciamento do tráfego de elevadores prediais. O principal objetivo é a comparação de um método comum e um método inteligente para o controle dos elevadores. Esse método inteligente por sua vez é um sistema de inferência fuzzy.</p>
 <p align="justify">
 <br>
@@ -167,11 +167,11 @@ Tabela 1 - Quadro Resumo de comparativo de eficência
 INFOLEV ELEVADORES & INFORMÁTICA LTDA “Consumo
 de Energia Elétrica em Elevadores”. Disponível em <www.elevadores
 ressi.com.br/energia.doc> Acessado em 16/03/2015.
-<br>
+<br><br>
 NOYA, M., SEROA, A. e ABREU, W. (2013) “Eficiência Energética,
 Sustentabilidade e Conforto Ambiental: Benefícios da Habitação Social Bioclimática”.
 Rio de Janeiro: IX Congresso Nacional de Excelência em Gestão.
-<br>
+<br><br>
 Siikonen, M.L., Leppala, J. (1991). “Elevator Traffic Pattern
 Recognition.” In: Proccedings of 4th International Conference on Fuzzy
 System Association, pp. 195-198, Brussels, Belgium.</p>
