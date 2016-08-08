@@ -10,7 +10,9 @@ Existe uma tendência crescente pela busca de soluções da vida moderna que dem
 Prédios são responsáveis pelo consumo de 42% do total de eletricidade gerada no Brasil. Neste cenário, os edifícios comerciais utilizam 11% do consumo energético, enquanto que os residenciais consomem 23% e os prédios públicos 8% [NOYA et al 2013].
 Em nosso país, existem em média 200.000 elevadores em operação. Considerando o consumo de um elevador médio de 10HP, o que equivale à 75 lâmpadas de 100W para fins de comparação, o funcionamento de todo sistema de elevação predial consome mais de um décimo da energia produzida pela hidrelétrica de Itaipú (INFOLEV).
 Diante deste cenário, e considerando a necessidade de racionamento de energia elétrica e a importância de otimização de mecanismos que proporcionem conforto e comodidade de forma sustentável, necessário se faz o desenvolvimento de um sistema capaz de reduzir o consumo de energia elétrica e atender rapidamente aos usuários pela gestão inteligente dos serviços de elevação predial.
-2. INFORMAÇÕES SOBRE O DOMÍNIO DO PROBLEMA
+<br>
+<b>2. INFORMAÇÕES SOBRE O DOMÍNIO DO PROBLEMA</b>
+<br>
 Para implementação do sistema convencional de elevadores, foram levantadas
 as características do funcionamento do elevador predial definido como modelo. Para
 tanto, foi definido que o sistema modelo simularia um prédio de 10 (dez) andares com 2
@@ -23,8 +25,11 @@ metros de altura.
 Há ainda o tempo entre abertura e fechamento das portas. O tempo médio para
 abertura das portas, passagem do usuário para entrar ou sair e fechamento das portas é
 de em média 10 segundos.
-3. MODELAGEM E IMPLEMENTAÇÃO DO SISTEMA
-3.1. IMPLEMENTAÇÃO DO MODELO CONVENCIONAL
+<br>
+<b>3. MODELAGEM E IMPLEMENTAÇÃO DO SISTEMA</b>
+<br>
+<b>3.1. IMPLEMENTAÇÃO DO MODELO CONVENCIONAL</b>
+<br>
 Para implementação do projeto, foi utilizada a IDE Eclipse. A linguagem
 adotada foi o Java. O código completo do projeto pode ser analisado pelo ANEXO I que
 acompanha o presente relatório.
@@ -44,7 +49,9 @@ Figura 3 - Painel de controle interno do elevador
 Para fins de automatização do teste do projeto, foi implementada uma função
 para gerar chamadas aleatórias. A escolha do modo manual ou aleatório é feita no início
 da execução do programa.
-3.2. Implementação do banco de dados
+<br>
+<b>3.2. Implementação do banco de dados</b>
+<br>
 Para viabilizar a contagem de tempo entre chamadas e reunir os dados
 necessários para avaliação do desempenho do sistema convencional de elevadores
 representado pelo simulador implementado, foi associado um banco de dados ao
@@ -52,7 +59,9 @@ projeto. O SBD adotado foi o PostegreSQL, versão 9.3. O modelo conceitual do ba
 de dados construído pode ser representado pelo Diagrama de Entidade-Relacionamento
 abaixo:
 Figura 5 - Modelo ER do BD SimuladorElevador
-3.3. RESULTADOS
+<br>
+<b>3.3. RESULTADOS</b>
+<br>
 Com base em toda construção apresentada, o sistema gerou 1.000 chamadas
 randômicas, registrando o desempenho dos elevadores. Os dados extraídos foram
 organizados numa tabela organizada em 5 atributos (Id, data, hora de início, hora final,
@@ -93,10 +102,14 @@ associação. No método do centro de gravidade, calcula-se a área da curva da 
 lingüistica de saída produzida pela máquina de inferência, e acha-se o índice
 correspondente que divide esta área a metade.
 O gráfico que represente os resultados da execução destes é o seguinte:
-5. COMPARATIVO
+<br>
+<b>5. COMPARATIVO</b>
+<br>
 Com base nos resultados de ambas simulações, foi possível desenvolver uma
 série de gráficos que demonstram a performance entre um e outro.
-6. CONCLUSÕES
+<br>
+<b>6. CONCLUSÕES</b>
+<br>
 Uma vez cruzados os dados, concluímos que:
 O tempo mínimo nos dois cenários, como de se esperar, não possuem
 diferenças sensíveis, uma vez que o no melhor caso, não havendo concorrência em
@@ -147,13 +160,17 @@ Méd
 8 6,98 25,97 13,79
 MÉDIAS 1,41 23,31 16,21
 Tabela 1 - Quadro Resumo de comparativo de eficência
-7. REFERÊNCIAS
+<br>
+<b>7. REFERÊNCIAS</b>
+<br>
 INFOLEV ELEVADORES & INFORMÁTICA LTDA “Consumo
 de Energia Elétrica em Elevadores”. Disponível em <www.elevadores
 ressi.com.br/energia.doc> Acessado em 16/03/2015.
+<br>
 NOYA, M., SEROA, A. e ABREU, W. (2013) “Eficiência Energética,
 Sustentabilidade e Conforto Ambiental: Benefícios da Habitação Social Bioclimática”.
 Rio de Janeiro: IX Congresso Nacional de Excelência em Gestão.
+<b>
 Siikonen, M.L., Leppala, J. (1991). “Elevator Traffic Pattern
 Recognition.” In: Proccedings of 4th International Conference on Fuzzy
 System Association, pp. 195-198, Brussels, Belgium.
